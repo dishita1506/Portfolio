@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1cb54034b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- HEADER -->
+    <div id="head">
+
+        <div class="container">
+
+        <nav>
+            <img src="logo.png" alt="">
+            <ul>
+                <li><a href="#head">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#work">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+          
+        </nav>
+        <div id="head-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hi! I'm <span>Dishita Gangwar  </span><br>from Bareilly , Uttar Pradesh</h1>
+        </div>
+
+
+
+    </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="first">
+                    <img src="about.jpg" alt="">
+                </div>
+                <div class="second">
+                    <h1 class="title">About Me</h1>
+                    <p id="intro">Hey there! I'm a Dishita Gangwar  a dedicated and curious 3rd-year computer science engineering student, passionate about exploring the intricate world of technology.I am  pursuing web development as my creative outlet as  I love crafting dynamic and user-friendly websites that blend aesthetics with functionality. With a solid foundation in HTML, CSS, JavaScript, Nodejs, Express, and  Bootstrap I'm constantly expanding my skills to create immersive online experiences.Along with these web technologies i also am proficient at C , C++ , Java and python and have done some of the certifications from various platforms including Coding Ninjas , Infosys etc.  Feel free to explore my portfolio to see my journey unfold through various projects! </p>
+
+                    <div class="titles">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-content activepart " id="skills">
+                       
+                            <li>1. MERN Stack</li>
+                            <li>2. C , C++ , Java , Python</li>
+                            <li>3. Html , Css , Javascript</li>
+                            <li>4. Data Base Management System</li>
+                            <li>5. Computer Networks</li>
+                            <li>6. Problem Solving skills</li>
+                            <li>7. Communication Skills</li>
+                            <li>8. Team Management Skills</li>
+              
+                    </div>
+                    <div class="tab-content " id="experience">
+                       
+                        <li>1. Bharat Intern Internship (Virtual).</li>
+                        <li>2. Participated in Makethon5.O conducted by Infosys.</li>
+                        <li>3. Developed Group chat app using node and express.</li>
+                        <li>4. Developed Tic Tac Toe game using web technologies.</li>
+                        <li>5. Developed Weather App using API.</li>
+                        <li>6. Developed Dictionary App using API.</li>
+                        <li>7. Developed QR Code Generator. </li>
+                        <li>8. Appointed at the post of Treasurer at SUFY Club Chitkara University (July 2022-2023)</li>
+          
+                </div>
+                <div class="tab-content " id="education">
+                       
+                    <table border="1px">
+                        <tr>
+                            <th>Degree</th>
+                            <th>College/Board</th>
+                            <th>Year</th>
+                            <td>Cgpa/Percentage</td>
+                        </tr>
+                        <tr>
+                            <td>B.E(CSE)</td>
+                            <td>Chitkara University H.P</td>
+                            <td>3rd year</td>
+                            <td>9.45 cgpa</td>
+                        </tr>
+                        <tr>
+                            <td>12th</td>
+                            <td>CBSE</td>
+                            <td>2020</td>
+                            <td>82.6%</td>
+                        </tr>
+                        <tr>
+                            <td>10th</td>
+                            <td>CBSE</td>
+                            <td>2018</td>
+                            <td>93.6%</td>
+                        </tr>
+                    </table>
+                    
+      
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- SERVICES -->
+    <div id="service">
+        <div class="container">
+            <h1 class="title serviceT">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Frontend Development </h2>
+                    <p>I am here to help you in fronted development of websites.I can design different kinds of frontend websites as per your requirements. If you are interested then reach us by filling the contact form in contact section.</p>
+                    <button  id="btn"> <a href="">Learn More</a></button>
+                </div>
+
+                <div>
+                    <h2>Backened Development</h2>
+                    <p>Along with frontend i can help you with backend development as well.I can develope backend websites for you using NodeJs and Express. If you are interested then reach us by filling the contact form in contact section.</p>
+                    <button id="btn"> <a href="">Learn More</a></button>
+                </div>
+
+               
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- MY WORK -->
+    <div id="work">
+        <div class="container">
+            <h1 class="title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="p2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>Created this simple Tic Tac Toe game using Html , Css and javascript.It is responsive in nature , u can play it on laptop , mobile phone or ipad.Just click on the link button below to play the game.</p>
+                        <a href="https://transcendent-kelpie-a6432b.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="p1.jpg" alt="">
+                    <div class="layer">
+                        <h3>QR Code Generator</h3>
+                        <p>Created QR Code Generator using Html , Css and javascript. It helps you to generate QR Code according to the text or URL entered by you.You can also download the QR you have generated.Just click on the link button below to generate QR Code of your choice.</p>
+                        <a href=" https://relaxed-sable-1b622f.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="p3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Weather Forecast App</h3>
+                        <p>Created a Weather App which helps you to forecast weather conditions like temperature , wind speed and humidity of the location you have entered.It is also responsive in nature means you can use it in laptops , mobile phones , ipads etc. Just click on the link button below to open forecast weather conditons of your town.</p>
+                        <a href="https://zingy-fox-74cb55.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+
+                <div class="work">
+                    <img src="p6.jpg" alt="">
+                    <div class="layer">
+                        <h3>Dictionary App App</h3>
+                        <p>Created DG Dictionary App using Html , css and JS , which works on API and gives the meaning of word searched along with it's synonyms and additional information.It is also responsive in nature means you can use it in laptops , mobile phones , ipads etc. Just click on the link button below to use the dictionary.
+                            </p>
+                        <a href="https://celebrated-cobbler-0fc764.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="p5.jpg" alt="">
+                    <div class="layer">
+                        <h3>iCoder Website</h3>
+                        <p>Created Landing page of iCoder website using the concept of bootstrap.Just click on the link button below to open the site.</p>
+                        <a href="https://super-torrone-9f19fc.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="p4.jpg" alt="">
+                    <div class="layer">
+                        <h3>Planet Message App (chat app)</h3>
+                        <p>Created live group chat app using Html , Css , Javascript and NodeJS.Firstly you have to login with you name
+                            after that you can chat with multiple people at a time.
+                            .</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <h1 class="title">Contact Me</h1>
+                    <p class="one" id="mail"><i class="fa-solid fa-square-envelope"></i>dishitagangwar1506@gmail.com </p>
+                    <p class="one" id="num"><i class="fa-solid fa-phone"></i>6397270694 | 7456809816</p>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dishita-gangwar-060178229/?midToken=AQFgwhU3wac76g&midSig=1A8qOy-0Pgkq41&trk=eml-email_job_alert_digest_01-header-48-profile&trkEmail=eml-email_job_alert_digest_01-header-48-profile-null-fuwqq0%7Ekxulmkgc%7E2l-null-neptune%2Fprofile%7Evanity%2Eview"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/dishita1506"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        
+                    </div>
+                    <button class="btn2" type=""><a href="resume.pdf" download>Download Resume</a></button>
+                </div>
+                <div class="right">
+                    <form action="" name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <textarea name="More" id=""  rows="6" placeholder="More about you" ></textarea>
+                       
+                        <button type="submit" class="btn3">Submit</button>
+                   
+                    </form>
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">Copyright  <i class="fa-sharp fa-regular fa-copyright"> </i>  Dishita Gangwar</div>
+
+    <script src="script.js"></script>
+
+
+    <script>
+        
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwSOC8P1ouac941tNEeNsQjWSxxewjIeek8iBV6SluOVXyQ1sHxE-vlUM9sw3ojCT2AOQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.querySelector("#msg");
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent Successfully...";
+        setTimeout(function(){
+            msg.innerHTML="";
+        },5000);
+
+        form.reset();
+
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+    </script>
+</body>
+</html>
